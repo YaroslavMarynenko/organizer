@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Розклад клієнтів</h1>
+
+  <div class="date-selector">
+    <label for="date">Виберіть день:</label>
+
+    <input type="date" id="date" />
+    <input type="text" id="searchInput" placeholder="Пошук по номеру телефону..." />
+  </div>
+
+  <div class="schedule" id="schedule">
+    <!-- Часові блоки будуть створені за допомогою JavaScript -->
+  </div>
+
+
+  
+
+    <!-- Форма для вводу даних клієнта -->
+<div id="clientForm" style="display: none;">
+    <h3>Записати клієнта</h3>
+    <label for="clientName">Ім'я клієнта:</label>
+    <input type="text" id="clientName" placeholder="Ім'я" /><br>
+  
+    <label for="clientNomer">Номер телефону:</label>
+    <input type="text" id="clientNomer" placeholder="Номер" /><br>
+  
+    <label for="clientHairstyle">Тип зачіски:</label>
+    <input type="text" id="clientHairstyle" placeholder="Зачіска" /><br>
+  
+    <button id="saveClient">Зберегти</button>
+    <button id="cancelClient">Скасувати</button>
+  </div>
+  <!-- Используйте библиотеку, например, FullCalendar -->
+
+
+  
+    <script src="/js/js.js"></script>
+</body>
+</html>
